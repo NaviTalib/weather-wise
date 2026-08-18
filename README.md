@@ -3,7 +3,7 @@
 
 A modern, responsive, and visually stunning weather application built using **React** and **Tailwind CSS**. WeatherWise fetches real-time meteorological data and 3-day forecasts for any city worldwide using the **OpenWeatherMap API**.
 
-![WeatherWise Preview](https://via.placeholder.com/800x400.png?text=WeatherWise+App+Preview) <!-- Replace this link with a screenshot or demo GIF of your app -->
+![WeatherWise Preview](src/assets/screenshot1.png/) <!-- Replace this link with a screenshot or demo GIF of your app -->
 
 ---
 
@@ -43,13 +43,12 @@ Ensure you have the following installed on your system:
    git clone [https://github.com/your-username/Weather-Wise.git](https://github.com/your-username/Weather-Wise.git)
    cd Weather-Wise
 
-```
 
 2. **Install dependencies:**
 ```bash
 npm install
-
 ```
+ 
 
 
 3. **Set up Environment Variables:**
@@ -113,8 +112,3 @@ Built with 💙 by **Navi Talib** as part of the **#100DaysOfCode** challenge.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-```
-
-*(Be sure to swap in your actual GitHub username and LinkedIn handle in the badge links!)*
-
-```
