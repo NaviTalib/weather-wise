@@ -1,16 +1,43 @@
-# React + Vite
+# 🌤️ WeatherWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, and visually stunning weather application built using **React** and **Tailwind CSS**. WeatherWise fetches real-time meteorological data and 3-day forecasts for any city worldwide using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+![WeatherWise Preview](https://via.placeholder.com/800x400.png?text=WeatherWise+App+Preview) <!-- Replace this link with a screenshot or demo GIF of your app -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌡️ **Real-Time Weather Data:** Instant updates on temperature, condition descriptions, humidity, wind speed, and atmospheric pressure.
+- 🕒 **City Local Time:** Accurately calculates and displays the current local time of the searched location using timezone UTC offsets.
+- 📅 **3-Day Forecast:** Dynamic midday temperature projections for upcoming days.
+- 🎨 **Glassmorphism Design:** Modern semi-transparent, frosted-glass UI with glowing backdrop filters and a fully responsive layout across mobile, tablet, and desktop devices.
+- 🛑 **Smart Input Handling:** Input validation prevents empty or whitespace-only search requests to optimize API usage.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** [React.js](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **API:** [OpenWeatherMap API](https://openweathermap.org/api)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v16.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/Weather-Wise.git](https://github.com/your-username/Weather-Wise.git)
+   cd Weather-Wise
