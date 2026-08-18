@@ -3,7 +3,7 @@
 
 A modern, responsive, and visually stunning weather application built using **React** and **Tailwind CSS**. WeatherWise fetches real-time meteorological data and 3-day forecasts for any city worldwide using the **OpenWeatherMap API**.
 
-![WeatherWise Preview](https://via.placeholder.com/800x400.png?text=WeatherWise+App+Preview) <!-- Replace this link with a screenshot or demo GIF of your app -->
+![WeatherWise Preview](src/assets/screenshot1.png/800x400) <!-- Replace this link with a screenshot or demo GIF of your app -->
 
 ---
 
