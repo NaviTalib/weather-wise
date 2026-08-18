@@ -113,8 +113,3 @@ Built with 💙 by **Navi Talib** as part of the **#100DaysOfCode** challenge.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-```
-
-*(Be sure to swap in your actual GitHub username and LinkedIn handle in the badge links!)*
-
-```
