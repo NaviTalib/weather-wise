@@ -44,10 +44,12 @@ Ensure you have the following installed on your system:
    cd Weather-Wise
 ```
 
+```
 2. **Install dependencies:**
-  ```bash
+```bash
 npm install
- ```
+```
+ 
 
 
 3. **Set up Environment Variables:**
