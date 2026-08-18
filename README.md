@@ -1,16 +1,120 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🌤️ WeatherWise
 
-Currently, two official plugins are available:
+A modern, responsive, and visually stunning weather application built using **React** and **Tailwind CSS**. WeatherWise fetches real-time meteorological data and 3-day forecasts for any city worldwide using the **OpenWeatherMap API**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![WeatherWise Preview](https://via.placeholder.com/800x400.png?text=WeatherWise+App+Preview) <!-- Replace this link with a screenshot or demo GIF of your app -->
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🌡️ **Real-Time Weather Data:** Instant updates on temperature, condition descriptions, humidity, wind speed, and atmospheric pressure.
+- 🕒 **City Local Time:** Accurately calculates and displays the current local time of the searched location using timezone UTC offsets.
+- 📅 **3-Day Forecast:** Dynamic midday temperature projections for upcoming days.
+- 🎨 **Glassmorphism Design:** Modern semi-transparent, frosted-glass UI with glowing backdrop filters and a fully responsive layout across mobile, tablet, and desktop devices.
+- 🛑 **Smart Input Handling:** Input validation prevents empty or whitespace-only search requests to optimize API usage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** [React.js](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **API:** [OpenWeatherMap API](https://openweathermap.org/api)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v16.x or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/Weather-Wise.git](https://github.com/your-username/Weather-Wise.git)
+   cd Weather-Wise
+
+```
+
+2. **Install dependencies:**
+```bash
+npm install
+
+```
+
+
+3. **Set up Environment Variables:**
+Create a `.env` file in the root directory of your project and add your OpenWeather API key:
+```env
+VITE_OPENWEATHER_API_KEY=your_actual_api_key_here
+
+```
+
+
+> 💡 *Note: You can obtain a free API key by signing up at [OpenWeatherMap](https://openweathermap.org/api).*
+
+
+4. **Run the development server:**
+```bash
+npm run dev
+
+```
+
+
+5. **Open in Browser:**
+Navigate to `http://localhost:5173` to view the app in your browser.
+
+---
+
+## 📂 Project Structure
+
+```text
+Weather-Wise/
+├── public/
+│   └── weather-icon.png      # Custom Favicon
+├── src/
+│   ├── App.jsx               # Main Application Component
+│   ├── main.jsx              # Application Entry Point
+│   └── index.css             # Tailwind Directives & Global Styles
+├── .env                      # API Key Configuration
+├── index.html                # HTML Template
+├── package.json              # Dependencies and Scripts
+├── tailwind.config.js        # Tailwind Configuration
+└── README.md                 # Project Documentation
+
+```
+
+---
+
+## 💻 Usage
+
+1. Enter the name of any city in the top-right search bar.
+2. Press **Enter** or click the **Search** button.
+3. View instant live weather parameters, city-specific local time, and upcoming daily projections.
+
+---
+
+## 👨‍💻 Author
+
+Built with 💙 by **Navi Talib** as part of the **#100DaysOfCode** challenge.
+
+---
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+```
+
+*(Be sure to swap in your actual GitHub username and LinkedIn handle in the badge links!)*
+
+```
