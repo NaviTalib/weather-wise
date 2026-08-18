@@ -1,6 +1,4 @@
-Here is your complete, updated `README.md` file containing all the sections formatted together:
 
-```markdown
 # 🌤️ WeatherWise
 
 A modern, responsive, and visually stunning weather application built using **React** and **Tailwind CSS**. WeatherWise fetches real-time meteorological data and 3-day forecasts for any city worldwide using the **OpenWeatherMap API**.
